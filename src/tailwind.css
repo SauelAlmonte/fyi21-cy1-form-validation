@@ -5,4 +5,12 @@
     @apply border-b-2 border-gray-300 outline-none focus:border-gray-600;
 }
 
+.success {
+    @apply bg-green-600 text-white p-2 block
+}
+
+.error {
+    @apply block bg-red-500 text-white
+}
+
 @tailwind utilities;
