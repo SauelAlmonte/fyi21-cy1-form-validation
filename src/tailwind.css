@@ -5,6 +5,17 @@
     @apply border-b-2 border-gray-300 outline-none focus:border-gray-600;
 }
 
+.success-input {
+    @apply border-2 border-green-300 w-full;
+}
+
+#my-input {
+
+}
+
+.class-name{
+
+}
 .success {
     @apply bg-green-600 text-white p-2 block
 }

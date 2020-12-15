@@ -596,6 +596,19 @@ video {
   outline-offset: 2px;
 }
 
+.success-input {
+  --tw-border-opacity: 1;
+  border-color: rgba(110, 231, 183, var(--tw-border-opacity));
+  border-width: 2px;
+  width: 100%;
+}
+
+#my-input {
+}
+
+.class-name{
+}
+
 .success {
   --tw-bg-opacity: 1;
   background-color: rgba(5, 150, 105, var(--tw-bg-opacity));
