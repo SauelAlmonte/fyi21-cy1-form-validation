@@ -9,7 +9,7 @@
   const password2 = document.getElementById('password2')
   const password2Err = password2.nextElementSibling
   // const usernameErr = document.getElementById("usernameErr")
-
+  
   regForm.addEventListener('submit', function (e) {
     e.preventDefault()
 
@@ -68,23 +68,23 @@
   }
   
 
-    // //@TODO: add the validation for email
-    // if (email.value === '') {
-    //   emailErr.className = 'block text-white bg-red-500'
-    // } else {
-    //   console.log('sending to server')
-    // }
+    //@TODO: add the validation for email
+    if (email.value === '') {
+      emailErr.className = 'block text-white bg-red-500'
+    } else {
+      console.log('sending to server')
+    }
 
-    // //@TODO: add the validation for password
-    // if (password.value === '') {
-    //   passwordErr.className = 'block text-white bg-red-500'
-    // } else {
-    //   console.log('sending to server')
-    // }
+    //@TODO: add the validation for password
+    if (password.value === '') {
+      passwordErr.className = 'block text-white bg-red-500'
+    } else {
+      console.log('sending to server')
+    }
 
-    // if (password2.value === '') {
-    //   password2Err.className = 'block text-white bg-red-500'
-    // } else {
-    //   console.log('sending to server')
-    // }
+    if (password2.value === '') {
+      password2Err.className = 'block text-white bg-red-500'
+    } else {
+      console.log('sending to server')
+    }
 
